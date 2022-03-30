@@ -1,0 +1,14 @@
+step 1: CREATE schema practice;
+step 2: CREATE table form(
+    id int,
+    address varchar (50),
+    email varchar (50),
+    comment varchar (50),
+    PRIMARY KEY (id)
+)
+
+<-----NOTE----->
+
+$user_query = "INSERT INTO form (name,address,email,comment) VALUES ('$name','$address','$email','$comment')";
+
+data base ko attribute ko naam ra INSERT query ko ma insert garda naam same hunu parxa hai my dudes ;)
